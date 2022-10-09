@@ -32,6 +32,11 @@ contract Presale is IERC721, ERC721URIStorage {
         treasury = new Treasury(address(dai));
     }
 
+    function getSharesPerTokenHolder(uint tokenId, address holder) public view returns(uint) {
+        return tokenToHolders[tokenId][holder];
+    }
+    
+
     function mint(
         string calldata metadata,
         uint256 totalAmount,

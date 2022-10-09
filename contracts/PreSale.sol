@@ -30,6 +30,7 @@ contract Presale is IERC721, ERC721URIStorage {
     constructor() ERC721("PreSale", "PRS") {
         dai = IERC20(0xd393b1E02dA9831Ff419e22eA105aAe4c47E1253);
         treasury = new Treasury(address(dai));
+
     }
 
     function getSharesPerTokenHolder(uint tokenId, address holder) public view returns(uint) {
@@ -50,6 +51,7 @@ contract Presale is IERC721, ERC721URIStorage {
 
         _safeMint(_msgSender(), tokenId);
         _setTokenURI(tokenId, metadata);
+
 
         emit PreSaleMinted(tokenId);
     }

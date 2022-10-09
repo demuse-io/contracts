@@ -22,6 +22,8 @@ We bring web3 to the music industry so artists can:
 
 - Voting: the first element that allows the musician to co-create with their loyal fans that invested in the presell. 
 
+Source: https://github.com/demuse-io/contracts
+
 ## Front end
 
 We created a react app with:
@@ -32,6 +34,8 @@ We created a react app with:
 
 - premint page: connecte with lens and integrated with the PreSale contract
 
+Source: https://github.com/demuse-io/marketplace
+
 ## Decentralised social medium
 
 We created the first version of a decentralised social media built with lens that is designed to facilitate co-creation of music. 
@@ -40,5 +44,5 @@ More work is needed here, but we created a landing page with web3 login. After l
 
 The full version would allow distribution inherent in social media by making use of the social graph of lens.
 
-
+Source: https://github.com/demuse-io/marketplace
 
